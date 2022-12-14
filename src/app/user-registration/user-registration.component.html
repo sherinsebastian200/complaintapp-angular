@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                    <h2 class="text" style="text-align:center">USER REGISTRATION</h2>
+                   
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Name</label>
+                    <input name="name" [(ngModel)]="name" type="text" class="form-control">
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Email </label>
+                    <input name="email" [(ngModel)]="email" type="email" name="" id="" class="form-control">
+
+                </div>
+                 
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                    <label for="" class="form-label">Address</label>
+                    <textarea name="address" [(ngModel)]="address" id=""  rows="3" class =form-control></textarea>
+
+                </div>
+            
+                
+            
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Phone Number</label>
+                    <input name="phone" [(ngModel)]="phone"  type="text" class="form-control">
+
+                </div>
+                <div class="col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">User Name</label>
+                    <input name="username" [(ngModel)]="username" type="text" class="form-control">
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Password</label>
+                    <input name="password" [(ngModel)]="password" type="password" name="" id="" class="form-control">
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                    <label for="" class="form-label">Confirm Password</label>
+                    <input name="confirm" [(ngModel)]="confirm" type="password" name="" id="" class="form-control">
+
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+
+                    <button (click)="readValue()" class="btn btn-primary">Register</button>
+
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+
+                    <a routerLink="/userlogin" >Back to user login</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
